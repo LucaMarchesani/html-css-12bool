@@ -1,0 +1,23 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    background-color: yellowgreen;
+}
+
+[class*="col-"]{
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 4rem;
+    border: 1px solid #ffffff;
+    background-color: blue;
+}
+
+[class*="nested"]{
+    background-color: yellowgreen;
+}
