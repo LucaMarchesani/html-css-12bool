@@ -7,7 +7,6 @@
 
 main{
     height: 100vh;
-    background-color: yellowgreen;
 }
 
 [class*="col-"]{
@@ -18,6 +17,13 @@ main{
     background-color: blue;
 }
 
+[class*="box"]{
+    flex-wrap: nowrap;
+    padding: 1rem;
+}
+
 [class*="nested"]{
+    height: 2rem;
+    border: 1px solid blue;
     background-color: yellowgreen;
 }
